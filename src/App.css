@@ -104,10 +104,6 @@ body {
   text-decoration: none;
 }
 
-:-webkit-any-link {
-  text-decoration: none;
-}
-
 @media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;
