@@ -10,18 +10,20 @@ const Footer = () => (
       flexWrap="wrap"
       px="40px"
       pt="24px"
+      pb="24px"
+      bgcolor="#FFFAFB"
     >
       <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} />
     </Stack>
-    <Typography
+    {/* <Typography
       variant="h5"
-      sx={{ fontSize: { lg: "28px", xs: "20px" } }}
+      sx={{ fontSize: { lg: "18px", xs: "10px" } }}
       mt="41px"
       textAlign="center"
       pb="40px"
     >
-      Made with ❤️ by JavaScript Mastery
-    </Typography>
+      Made with passion by dr0er
+    </Typography> */}
   </Box>
 );
 
