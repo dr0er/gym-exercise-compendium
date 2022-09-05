@@ -15,7 +15,7 @@ const Footer = () => (
     >
       <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} />
     </Stack>
-    {/* <Typography
+    <Typography
       variant="h5"
       sx={{ fontSize: { lg: "18px", xs: "10px" } }}
       mt="41px"
@@ -23,7 +23,7 @@ const Footer = () => (
       pb="40px"
     >
       Made with passion by dr0er
-    </Typography> */}
+    </Typography>
   </Box>
 );
 
