@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
+  color: #2f1340;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -58,14 +58,15 @@ body {
   top: 0px;
   width: 700px;
   height: 900px;
-  margin-top: -330px;
+  margin-top: -360px;
+  border-bottom-left-radius: 80px;
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #ff2625;
+  border-top: 4px solid #2f1340;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -91,8 +92,8 @@ body {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  color: #2f1340 !important;
+  border: 1px solid #2f1340 !important;
 }
 
 .exercise-video {

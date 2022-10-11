@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
-import HeroBannerImage from "../assets/images/banner.png";
+import HeroBannerImage from "../assets/images/banner.jpg";
 
 const HeroBanner = () => (
   <Box
@@ -9,20 +9,20 @@ const HeroBanner = () => (
     position="relative"
     p="20px"
   >
-    <Typography color="#FF2625" fontWeight="600" fontSize="26px">
+    <Typography color="#2f1340" fontWeight="600" fontSize="26px">
       Fitness Club
     </Typography>
     <Typography
-      fontWeight={700}
+      fontWeight={900}
       sx={{ fontSize: { lg: "44px", xs: "40px" } }}
       mb="23px"
       mt="30px"
     >
-      Sweat, Smile <br />
-      And Repeat
+      Be the best <br />
+      version of yourself.
     </Typography>
     <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
-      Check out the most effective exercises personalized to you
+      Without further do, check out my exercises🏋🏾‍♂️
     </Typography>
     <Stack>
       <a
@@ -32,7 +32,7 @@ const HeroBanner = () => (
           textDecoration: "none",
           width: "200px",
           textAlign: "center",
-          background: "#FF2625",
+          background: "#2f1340",
           padding: "14px",
           fontSize: "22px",
           textTransform: "none",
@@ -45,14 +45,14 @@ const HeroBanner = () => (
     </Stack>
     <Typography
       fontWeight={600}
-      color="#FF2625"
+      color="#2f1340"
       sx={{
         opacity: "0.1",
         display: { lg: "block", xs: "none" },
         fontSize: "200px",
       }}
     >
-      Exercise
+      Train hard.
     </Typography>
     <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
   </Box>
